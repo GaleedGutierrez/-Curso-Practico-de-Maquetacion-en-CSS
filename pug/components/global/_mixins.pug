@@ -2,12 +2,24 @@ mixin titles(title)
     title=title 
 
 mixin style-head(style)
-    link(rel="stylesheet", href="../css/"+style)
+    link(rel="stylesheet" href="../css/"+style)
 
 mixin style-head-responsive(stylesResponsive, screen) 
-    link(rel="stylesheet", href="../css/"+stylesResponsive media="screen and (min-width:" +screen+"px)")
+    link(rel="stylesheet" href="../css/"+stylesResponsive media="screen and (min-width:" +screen+"px)")
 
 mixin figure-img(classFigure, srcImg, altImg)
     figure(class=classFigure)
         img(src="https://drive.google.com/uc?id="+srcImg, alt=altImg)
+
+mixin logo-mi-blog
+    .logo-container
+        figure.logo-image-container
+            svg(viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg")
+                path(d="M45.6819 31.9513C44.3091 30.6793 44.7441 28.4091 46.4845 27.7627L90.6791 11.3468C92.31 10.741 94.0527 11.9657 94.0527 13.7177L94.0527 71.0851C94.0527 73.2644 91.4766 74.3856 89.8765 72.9028L45.6819 31.9513Z" fill="#48CFAD")
+                rect(y="0.09375" width="94" height="58" rx="12" fill="#48CFAD")
+                rect(width="32.0855" height="10.5229" rx="5.26144" transform="matrix(-0.707107 0.707107 0.707107 0.707107 75.959 20.9282)" fill="white")
+                rect(width="31.0206" height="10.5229" rx="5.26144" transform="matrix(0.707107 0.707107 0.707107 -0.707107 54 13.9048)" fill="white")
+                rect(width="32.0855" height="10.5229" rx="5.26144" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 17.4404 36.1284)" fill="white")
+                rect(width="31.0206" height="10.5229" rx="5.26144" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 39.3994 43.1519)" fill="white")
+        p.logo__mi-blog Mi blog
 
