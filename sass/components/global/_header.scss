@@ -2,13 +2,9 @@
 
 .header {
     display: grid;
-    grid-template-rows: 5rem 1fr;
+    grid-template-rows: 5rem 9rem;
     width: 100%;
-    height: 14rem;
-}
-
-.header__anchor {
-    color: $black;
+    // height: 14rem;
 }
 
 .header__social-media-icons {
@@ -28,12 +24,39 @@
 }
 
 .header__social-media-icon  {
-    display: flex;
-    align-items: center;
+    @include center-block-axis;
     height: 100%;
     color: $white;
 }
 
 .social-media-icon__span {
     font-size: 3rem;
+}
+
+.header__nav-logo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: auto;
+    padding: 0 5rem;
+}
+
+.header__logo-container {
+    @include center-block-axis;
+    height: 100%;
+}
+
+.header__profile-link {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+}
+
+.header__about-me {
+    @include center-block-axis;
+    height: 100%;
+}
+
+.header__about-me-span {
+    border-bottom: 0.1rem solid $black;
 }
