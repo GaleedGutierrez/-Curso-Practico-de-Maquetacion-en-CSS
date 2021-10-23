@@ -5,5 +5,34 @@
 body {
     width: 100%;
     height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.logo__mi-blog,
+.header__about-me-span {
+    color: $white;
+}
+
+.header__about-me-span {
+    border-color: $white;
+}
+
+.main {
+    position: absolute;
+    top: 4.9rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://drive.google.com/uc?id=1HT0indmg4FARX86CXwzTMLwhf2Ctu6u1") no-repeat center;
+    background-size: cover;
+}
