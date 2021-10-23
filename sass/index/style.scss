@@ -5,20 +5,26 @@
 body {
     width: 100%;
     height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    // right: 0;
 }
 
 .header {
+    display: inline-block;
     position: relative;
     z-index: 1;
+    margin-block-start: 3rem;
+    margin-block-end: 3rem;
 }
 
 .logo__mi-blog,
-.header__about-me-span {
+.header__about-me-span,
+.main__social-media-icon,
+.main__title,
+.main__subtible {
     color: $white;
 }
 
@@ -26,13 +32,60 @@ body {
     border-color: $white;
 }
 
+.header__social-media-icons {
+    display: none;
+}
+
 .main {
+    display: grid;
+    grid-template-rows: 1fr 3rem;
+    align-items: center;
+    // gap: 20rem;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 80%;
+    // min-height: 600px;
+    text-align: center;
+    // background: url("https://drive.google.com/uc?id=1HT0indmg4FARX86CXwzTMLwhf2Ctu6u1") no-repeat center;
+    // background-size: cover;
+}
+
+.wallpaper {
     position: absolute;
-    top: 4.9rem;
+    top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    bottom: 0;
+    // width: 100%;
     height: 100%;
     background: url("https://drive.google.com/uc?id=1HT0indmg4FARX86CXwzTMLwhf2Ctu6u1") no-repeat center;
     background-size: cover;
+}
+
+.main__titles-container {
+    // position: relative;
+    // z-index: 1;
+    padding: 0 3rem;
+    font-family: $font-secondary;
+}
+
+.main__title {
+    font-size: 3.5rem;
+} 
+
+.main__subtible {
+    margin-block-start: 1rem;
+    margin-block-end: 4rem;
+    font-size: 2rem;
+}
+
+.main__social-media-icons {
+    // position: relative;
+    // z-index: 1;
+    // margin-block-start: 10vh;
 }
