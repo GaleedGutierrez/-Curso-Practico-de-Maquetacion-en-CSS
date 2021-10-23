@@ -1,16 +1,16 @@
 .logo {
     @include center-block-axis;
     gap: 0.9rem;
-    height: 100%;
+    height: 4rem;
 }
 
 .logo-image-container {
-    height: 4.5rem;
+    height: 100%;
 }
 
 .logo__mi-blog {
     font-family: $font-logo-mi-logo;
-    font-size: 3.7rem;
+    font-size: 3rem;
     font-weight: bold;
     // line-height: 5.5rem;
     text-transform: uppercase;

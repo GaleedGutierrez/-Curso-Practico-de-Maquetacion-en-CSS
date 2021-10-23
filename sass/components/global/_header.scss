@@ -35,10 +35,10 @@
 
 .header__nav-logo-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr auto;
     align-items: center;
     height: auto;
-    padding: 0 5rem;
+    padding: 0 2rem;
 }
 
 .header__logo-container {
@@ -46,11 +46,11 @@
     height: 100%;
 }
 
-.header__profile-link {
-    display: flex;
-    justify-content: end;
-    height: 100%;
-}
+// .header__profile-link {
+//     display: flex;
+//     justify-content: end;
+//     height: 100%;
+// }
 
 .header__about-me {
     @include center-block-axis;

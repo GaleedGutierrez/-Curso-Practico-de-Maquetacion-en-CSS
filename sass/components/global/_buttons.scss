@@ -1,0 +1,13 @@
+.button {
+    width: 12rem;
+    height: 5rem;
+    font-family: $font-secondary;
+    font-size: $medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+}
+
+.button--primary {
+    background-color: $primary-color;
+}

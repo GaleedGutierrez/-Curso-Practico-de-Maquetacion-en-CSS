@@ -5,7 +5,15 @@ $font-tertiary: 'Roboto Slab', serif;
 $font-logo-mi-logo: 'CodeNext-ExtraBold' ,'Roboto Mono', monospace;
 
 // font size
-$small: 1rem;
-$medium: 1rem;
-$large: 1rem;
-$extra-large: 1rem;
+$small: 1.4rem;
+$medium: 1.6rem;
+$large: 1.8rem;
+$extra-large: 2.4rem;
+
+h1 {
+    font-size: $large;
+}
+
+p, a {
+    font-size: $small;
+}
