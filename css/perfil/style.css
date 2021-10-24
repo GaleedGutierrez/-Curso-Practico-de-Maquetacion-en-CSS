@@ -1,99 +1,141 @@
+a {
+  color: #23282d;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+p, a {
+  font-size: 1.4rem;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
 }
 
 img,
 svg {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.logo-container {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 0.9rem;
-    height: 7.4rem;
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.9rem;
+  height: 4rem;
 }
 
 .logo-image-container {
-    height: 100%;
+  height: 100%;
 }
 
 .logo__mi-blog {
-    font-family: "CodeNext-ExtraBold", "Roboto Mono", monospace;
-    font-weight: bold;
-    line-height: 5.5rem;
-    text-transform: uppercase;
-    font-size: 7.5rem;
+  font-family: "CodeNext-ExtraBold", "Roboto Mono", monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .header {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 5rem 1fr;
-    grid-template-rows: 5rem 1fr;
-    width: 100%;
-    height: 14rem;
-}
-
-.header__anchor {
-    color: #23282d;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 5rem 9rem;
+  grid-template-rows: 5rem 9rem;
+  width: 100%;
 }
 
 .header__social-media-icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    width: 100%;
-    height: 100%;
-    background-color: #48cfad;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  height: 100%;
+  background-color: #48cfad;
 }
 
 .header__social-media-icons-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 30rem;
-    height: 100%;
-    margin-right: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30rem;
+  height: 100%;
+  margin-right: 3.5rem;
 }
 
 .header__social-media-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100%;
-    color: #e6e9ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: #ffffff;
 }
 
 .social-media-icon__span {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+.header__nav-logo-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+  grid-template-columns: 1fr auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  padding: 0 2rem;
+}
+
+.header__logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header__about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header__about-me-span {
+  border-bottom: 0.1rem solid #23282d;
 }

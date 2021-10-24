@@ -1,8 +1,7 @@
-.logo-container {
-    display: inline-flex;
-    align-items: center;
+.logo {
+    @include center-block-axis;
     gap: 0.9rem;
-    height: 7.4rem;
+    height: 4rem;
 }
 
 .logo-image-container {
@@ -11,8 +10,8 @@
 
 .logo__mi-blog {
     font-family: $font-logo-mi-logo;
+    font-size: 3rem;
     font-weight: bold;
-    line-height: 5.5rem;
+    // line-height: 5.5rem;
     text-transform: uppercase;
-    font-size: 7.5rem;
 }

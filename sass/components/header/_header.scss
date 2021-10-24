@@ -1,0 +1,62 @@
+@import "../components/global/logo-mi-blog";
+
+.header {
+    display: grid;
+    grid-template-rows: 5rem 9rem;
+    width: 100%;
+    // height: 14rem;
+}
+
+.header__social-media-icons {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    background-color: $primary-color;
+}
+
+.header__social-media-icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    height: 100%;
+    margin-right: 3.5rem;
+}
+
+.header__social-media-icon  {
+    @include center-block-axis;
+    height: 100%;
+    color: $white;
+}
+
+.social-media-icon__span {
+    font-size: 3rem;
+}
+
+.header__nav-logo-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    height: auto;
+    padding: 0 2rem;
+}
+
+.header__logo-container {
+    @include center-block-axis;
+    height: 100%;
+}
+
+// .header__profile-link {
+//     display: flex;
+//     justify-content: end;
+//     height: 100%;
+// }
+
+.header__about-me {
+    @include center-block-axis;
+    height: 100%;
+}
+
+.header__about-me-span {
+    border-bottom: 0.1rem solid $black;
+}
