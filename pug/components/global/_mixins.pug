@@ -24,3 +24,19 @@ mixin logo-mi-blog
                 rect(width="31.0206" height="10.5229" rx="5.26144" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 39.3994 43.1519)" fill="white")
         p.logo__mi-blog Mi blog
 
+mixin img-responsive(img1024, img720, img360, altImg)
+        figure(tabindex="0" title=altImg).product-img-container
+            picture
+                source(media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id="+img1024)
+                source(media="(min-width: 720px)" srcset="https://drive.google.com/uc?id="+img720)
+                img(src="https://drive.google.com/uc?id="+img360, alt=altImg).product-img
+
+mixin button(page, content, classInput)
+    form(action="page") 
+        input(type="submit", value=content, class="button "+classInput)
+
+mixin box-blog-post-summary(img1024, img720, img360, altImg, content, page)
+    article 
+        +img-responsive(""+img1024, ""+img720, ""+img360, ""+altImg)
+        p=content
+        +button(""+page, "Leer más", "button--secondary")
