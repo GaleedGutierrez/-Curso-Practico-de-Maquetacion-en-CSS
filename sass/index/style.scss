@@ -1,7 +1,7 @@
 @import "../components/global/global";
-@import "../components/global/header";
+@import "../components/header/header";
 @import "../components/global/footer";
-@import "../components/global/buttons";
+@import "../components/buttons/buttons";
 
 .header__social-media-icons,
 .footer {
@@ -29,7 +29,7 @@
 .header__about-me-span,
 .main__social-media-icon,
 .main__title,
-.main__subtible {
+.main__subtitle {
     color: $white;
 }
 
@@ -41,7 +41,8 @@
 
 .main {
     display: grid;
-    grid-template-rows: 1fr 5rem;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr auto;
     gap: 5rem;
     align-items: center;
     align-self: center;
@@ -51,14 +52,20 @@
 
 
 .main__titles-container {
-    padding: 0 1rem;
+    grid-column: 2 / 3;
+}
+
+.main__title,
+.main__subtitle {
+    font-weight: bold;
+    // letter-spacing: 1rem;
 }
 
 .main__title {
     font-size: $extra-large;
-} 
+}
 
-.main__subtible {
+.main__subtitle {
     margin-block-start: 1rem;
     margin-block-end: 3rem;
     font-size: $large;
@@ -67,6 +74,7 @@
 .main__social-media-icons {
     display: flex;
     justify-content: center;
+    grid-column: 2 / 3;
     width: 100%;
     margin-block-end: 1rem;
 }
