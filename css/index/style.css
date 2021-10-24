@@ -25,7 +25,7 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-size: 1.6rem;
 }
 
@@ -143,7 +143,7 @@ svg {
 .button {
     width: 12rem;
     height: 5rem;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Roboto", monospace;
     font-size: 1.6rem;
     font-weight: bold;
     border: none;
@@ -173,7 +173,7 @@ svg {
     width: 100%;
     height: 100vh;
     min-height: 490px;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Roboto Mono", sans-serif;
     background: url("https://drive.google.com/uc?id=1rdqHsLxMLKrFtEBWu1ZKhzXeTCIBBUF9") no-repeat center;
     background-size: cover;
 }
