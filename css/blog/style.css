@@ -36,14 +36,15 @@ svg {
 }
 
 .logo {
+    position: relative;
+    gap: 0.9rem;
+    height: 4rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 0.9rem;
-    height: 4rem;
 }
 
 .logo-image-container {
@@ -51,8 +52,8 @@ svg {
 }
 
 .logo__mi-blog {
-    font-family: "CodeNext-ExtraBold", "Roboto Mono", monospace;
     font-size: 3rem;
+    font-family: "CodeNext-ExtraBold", "Roboto Mono", monospace;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -90,14 +91,14 @@ svg {
 }
 
 .header__social-media-icon {
+    height: 100%;
+    color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100%;
-    color: #ffffff;
 }
 
 .social-media-icon__span {
@@ -117,23 +118,23 @@ svg {
 }
 
 .header__logo-container {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100%;
 }
 
 .header__about-me {
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100%;
 }
 
 .header__about-me-span {
