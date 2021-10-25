@@ -6,6 +6,10 @@ h1 {
     font-size: 1.8rem;
 }
 
+p {
+    line-height: 3.25rem;
+}
+
 p, a {
     font-size: 1.4rem;
 }

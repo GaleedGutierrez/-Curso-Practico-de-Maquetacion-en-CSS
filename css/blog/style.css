@@ -6,6 +6,10 @@ h1 {
     font-size: 1.8rem;
 }
 
+p {
+    line-height: 3.25rem;
+}
+
 p, a {
     font-size: 1.4rem;
 }
@@ -161,4 +165,45 @@ svg {
             border-block-start: 3.5rem solid #48cfad;
     color: #ffffff;
     background-color: #23282d;
+}
+
+.blogpost__image-container {
+    padding: 0 5rem;
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+}
+
+.blogpost__image {
+    width: 100%;
+}
+
+.blogpost__main-container {
+    padding: 0 5rem;
+    -webkit-margin-after: 4rem;
+            margin-block-end: 4rem;
+}
+
+.blogpost__main-content-container {
+    -webkit-margin-before: 2rem;
+            margin-block-start: 2rem;
+}
+
+.blogpost__main-type-blog {
+    border-bottom: 0.1rem solid #23282d;
+    -webkit-padding-after: 2rem;
+            padding-block-end: 2rem;
+}
+
+.blogpost__main-title {
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+    font-size: 3.2rem;
+}
+
+.blogpost__main-info {
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+}
+.blogpost__main-info:last-child {
+    margin: 0;
 }
