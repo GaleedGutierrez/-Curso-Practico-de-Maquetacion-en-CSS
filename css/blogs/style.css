@@ -35,6 +35,11 @@ svg {
     height: 100%;
 }
 
+.grid-container {
+    max-width: 1024px;
+    margin: auto;
+}
+
 .logo {
     position: relative;
     gap: 0.9rem;
