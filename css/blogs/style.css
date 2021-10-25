@@ -161,3 +161,48 @@ svg {
 .button--primary {
   background-color: #48cfad;
 }
+
+.blogs-main__principal-blog-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: auto 2rem auto;
+  grid-template-rows: repeat(2, auto);
+      grid-template-areas: "title title" "imagen info";
+  grid-row-gap: 2rem;
+  padding: 2rem 5rem 4rem;
+  background-color: #e6e9ed;
+}
+
+.principal-blog__title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: title;
+}
+
+.blogs-main__principal-blog-image-container {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: imagen;
+  width: 90%;
+}
+
+.blogs-main__info-principal-blog-container {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: info;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.info-principal-blog-container__title {
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+}
+
+.info-principal-blog-container__info {
+  -webkit-margin-after: 3.5rem;
+          margin-block-end: 3.5rem;
+}

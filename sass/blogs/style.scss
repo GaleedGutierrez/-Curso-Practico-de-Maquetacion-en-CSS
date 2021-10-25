@@ -2,3 +2,42 @@
 @import "../components/header/header";
 @import "../components/global/footer";
 @import "../components/buttons/buttons";
+
+// .blogs-main {
+//     display: grid;
+// }
+
+.blogs-main__principal-blog-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "title title"
+        "imagen info";
+    grid-row-gap: 2rem;
+    padding: 2rem 5rem 4rem;
+    background-color: $white-hard;
+}
+
+.principal-blog__title {
+    grid-area: title;
+}
+
+.blogs-main__principal-blog-image-container {
+    grid-area: imagen;
+    width: 90%;
+}
+
+.blogs-main__info-principal-blog-container {
+    grid-area: info;
+    align-self: center;
+}
+
+
+.info-principal-blog-container__title {
+    margin-block-end: 2rem;
+}
+
+.info-principal-blog-container__info {
+    margin-block-end: 3.5rem;
+}
