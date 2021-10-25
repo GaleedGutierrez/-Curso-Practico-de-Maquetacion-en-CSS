@@ -1,3 +1,4 @@
+@import "../components/global/mixins";
 @import "../components/header/header-desktop";
 
 .blogs-main__principal-blog-container {
@@ -28,9 +29,9 @@
 }
 
 .blogs-main__blog-post-title {
-    margin: 2rem 5rem 0;
+    @include title-proyect-main__desktop;
 }
 
 .blogs-main__blogs-post-container {
-    grid-template-columns: 1fr 1fr 1fr;
+    @include box-proyects-container__desktop;
 }

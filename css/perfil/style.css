@@ -168,3 +168,94 @@ svg {
     color: #ffffff;
     background-color: #23282d;
 }
+
+.contact-main-container {
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 2rem;
+    padding: 3rem 5rem;
+    -webkit-margin-before: 4rem;
+            margin-block-start: 4rem;
+    background-color: #e6e9ed;
+}
+
+.contact-main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 2rem auto;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 2rem;
+}
+
+.contact-main__type {
+    display: inline-block;
+    -webkit-padding-after: 1rem;
+            padding-block-end: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
+    border-bottom: 0.1rem solid #23282d;
+}
+
+.contact-main__info {
+    line-height: normal;
+}
+
+.button {
+    width: 11rem;
+    height: 5rem;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.button--primary {
+    border: 0.1rem solid #48cfad;
+}
+
+.button--secondary {
+    background-color: #48cfad;
+}
+
+.profile-main__about-me-container {
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 2rem;
+    padding: 2rem 3rem;
+    background-color: #e6e9ed;
+}
+
+.profile-main__title {
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+}
+
+.profile-main__proyects-container {
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 3rem;
+    padding: 0 3rem;
+    -webkit-margin-before: 3rem;
+            margin-block-start: 3rem;
+}
+
+.profile-main__proyects-title {
+    -webkit-padding-after: 2rem;
+            padding-block-end: 2rem;
+    margin: 2rem 3rem 0;
+    -webkit-border-after: 0.1rem solid #656d78;
+            border-block-end: 0.1rem solid #656d78;
+    text-align: center;
+}
+
+.post-container__title {
+    margin: 2rem 0;
+}
+
+.post-container__info {
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
+}

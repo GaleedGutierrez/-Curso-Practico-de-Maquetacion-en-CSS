@@ -7,9 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto+Slab:wght@100;200;300;500;600;800;900&amp;family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../../../assets/fonts/Code-Next-Extra-Bold/MyFontsWebfontsKit.css">
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/Code-Next-Extra-Bold/MyFontsWebfontsKit.css">
     <link rel="stylesheet" href="../css/flaticon-font/flaticon.css">
     <link rel="stylesheet" href="../css/perfil/style.css"/>
+    <link rel="stylesheet" href="../css/perfil/tablet.css" media="screen and (min-width:720px)"/>
+    <link rel="stylesheet" href="../css/perfil/desktop.css" media="screen and (min-width:1024px)"/>
     <title>Perfil</title>
   </head>
   <body class="body">
@@ -36,7 +38,86 @@
         <section class="header__profile-link"><a class="header__about-me" href="./perfil.html"> <span class="header__about-me-span">Sobre mí </span></a></section>
       </nav>
     </header>
-    <main class="main"></main>
+    <main class="profile-main grid-container">
+      <section class="profile-main__about-me-container">
+        <figure class="profile-main__my-photo product-img-container" tabindex="0" title="Dummy photo">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=15f6oIpRKIuw5rqUiKqsZDue5qtV9IWAE"/>
+            <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=15f6oIpRKIuw5rqUiKqsZDue5qtV9IWAE"/><img class="product-img" src="https://drive.google.com/uc?id=15f6oIpRKIuw5rqUiKqsZDue5qtV9IWAE" alt="Dummy photo"/>
+          </picture>
+        </figure>
+        <div class="profile-main__about-me-info-container">
+          <h2 class="profile-main__title">Lorem ipsum</h2>
+          <p class="profile-main__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur perferendis neque tempore enim, delectus earum. Dolorem magni veniam atque, quasi voluptate rem inventore excepturi, minus aut quas, laudantium laborum!</p>
+        </div>
+      </section>
+      <h3 class="profile-main__proyects-title">Lorem ipsum</h3>
+      <section class="profile-main__proyects-container">
+        <article class="post-container"> 
+          <figure class="profile-main__proyect-image product-img-container" tabindex="0" title="Photo dummy">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm"/>
+              <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=1BZNddydZM10mtx1hrWui7GnsplknMd0b"/><img class="product-img" src="https://drive.google.com/uc?id=1LZJfnSzw31hKIBgK81yg258udfkNjfzT" alt="Photo dummy"/>
+            </picture>
+          </figure>
+          <h4 class="post-container__title">Lorem ipsum</h4>
+          <p class="post-container__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur perferendis neque tempore enim, delectus earum.</p>
+          <form action="./blog.html"> 
+            <input class="button button--primary" type="submit" value="Leer más"/>
+          </form>
+        </article>
+        <article class="post-container"> 
+          <figure class="profile-main__proyect-image product-img-container" tabindex="0" title="Photo dummy">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm"/>
+              <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=1BZNddydZM10mtx1hrWui7GnsplknMd0b"/><img class="product-img" src="https://drive.google.com/uc?id=1LZJfnSzw31hKIBgK81yg258udfkNjfzT" alt="Photo dummy"/>
+            </picture>
+          </figure>
+          <h4 class="post-container__title">Lorem ipsum</h4>
+          <p class="post-container__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur perferendis neque tempore enim, delectus earum.</p>
+          <form action="./blog.html"> 
+            <input class="button button--primary" type="submit" value="Leer más"/>
+          </form>
+        </article>
+        <article class="post-container"> 
+          <figure class="profile-main__proyect-image product-img-container" tabindex="0" title="Photo dummy">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm"/>
+              <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=1BZNddydZM10mtx1hrWui7GnsplknMd0b"/><img class="product-img" src="https://drive.google.com/uc?id=1LZJfnSzw31hKIBgK81yg258udfkNjfzT" alt="Photo dummy"/>
+            </picture>
+          </figure>
+          <h4 class="post-container__title">Lorem ipsum</h4>
+          <p class="post-container__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur perferendis neque tempore enim, delectus earum.</p>
+          <form action="./blog.html"> 
+            <input class="button button--primary" type="submit" value="Leer más"/>
+          </form>
+        </article>
+      </section>
+      <section class="contact-main-container grid-container">
+        <div class="contact-main-left contact-main"> 
+          <figure class="product-img-container" tabindex="0">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/>
+              <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/><img class="product-img" src="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/>
+            </picture>
+          </figure>
+          <div class="contact-left"><a class="contact-main__type" href="">Contacto</a>
+            <p class="contact-main__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+          </div>
+        </div>
+        <div class="contact-main-right contact-main">
+          <figure class="product-img-container" tabindex="0">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/>
+              <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/><img class="product-img" src="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/>
+            </picture>
+          </figure>
+          <div class="contact-right"><a class="contact-main__type" href="">Escribe</a>
+            <p class="contact-main__info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <p class="footer-text">Lorem ipsum dolor sit amet, consectetur.</p>
     </footer>

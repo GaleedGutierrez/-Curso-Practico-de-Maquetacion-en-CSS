@@ -207,8 +207,8 @@ svg {
     -webkit-padding-after: 2rem;
             padding-block-end: 2rem;
     margin: 2rem 3rem 0;
-    -webkit-border-after: 0.1rem solid #ccd1d9;
-            border-block-end: 0.1rem solid #ccd1d9;
+    -webkit-border-after: 0.1rem solid #656d78;
+            border-block-end: 0.1rem solid #656d78;
     text-align: center;
 }
 
@@ -226,8 +226,8 @@ svg {
 }
 
 .post-container__info {
-    -webkit-margin-after: 3.5rem;
-            margin-block-end: 3.5rem;
+    -webkit-margin-after: 2rem;
+            margin-block-end: 2rem;
 }
 
 .post-container__image {

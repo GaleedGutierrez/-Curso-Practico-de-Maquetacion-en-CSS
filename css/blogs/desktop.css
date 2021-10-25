@@ -53,10 +53,11 @@
 }
 
 .blogs-main__blog-post-title {
-    margin: 2rem 5rem 0;
+    margin: 2rem 0 0;
 }
 
 .blogs-main__blogs-post-container {
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
 }

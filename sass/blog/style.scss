@@ -15,7 +15,6 @@
 
 .blogpost__main-container {
     padding: 0 5rem;
-    margin-block-end: 4rem;
 }
 
 .blogpost__main-content-container {
@@ -24,8 +23,8 @@
 
 
 .blogpost__main-type-blog {
-    border-bottom: 0.1rem solid $black;
-    padding-block-end: 2rem;
+    @include title-proyect-main;
+    text-align: start;
 }
 
 .blogpost__main-title {
