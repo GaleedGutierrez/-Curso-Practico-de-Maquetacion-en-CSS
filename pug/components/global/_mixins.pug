@@ -13,7 +13,7 @@ mixin figure-img(classFigure, srcImg, altImg)
 
 mixin logo-mi-blog
     .logo
-        a(href="").logo-link
+        a(href="./blogs.html").logo-link
         figure.logo-image-container(tabindex="0" aria-label="Logo icon")
             svg(viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg")
                 path(d="M45.6819 31.9513C44.3091 30.6793 44.7441 28.4091 46.4845 27.7627L90.6791 11.3468C92.31 10.741 94.0527 11.9657 94.0527 13.7177L94.0527 71.0851C94.0527 73.2644 91.4766 74.3856 89.8765 72.9028L45.6819 31.9513Z" fill="#48CFAD")
@@ -32,12 +32,25 @@ mixin img-responsive(classFigure ,img1024, img720, img360, altImg)
                 img(src="https://drive.google.com/uc?id="+img360, alt=altImg).product-img
 
 mixin button(page, content, classInput)
-    form(action="page") 
+    form(action=page) 
         input(type="submit", value=content, class="button "+classInput)
 
 mixin box-blog-post-summary(img1024, img720, img360, altImg, title, content, page)
     article.post-container 
         +img-responsive("post-container__image", ""+img1024, ""+img720, ""+img360, ""+altImg)
-        p.post-container__title=title
+        h4.post-container__title=title
         p.post-container__info=content
         +button(""+page, "Leer más", "button--primary")
+
+mixin contact-section()
+    .contact-main-left 
+        +img-responsive("", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X")
+        .contact-left
+            a(href="") 
+            p
+    .contact-main-right
+        +img-responsive("", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU")
+        .contact-right
+            a(href="") 
+            p
+    

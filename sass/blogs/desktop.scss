@@ -1,0 +1,39 @@
+@import "../components/global/global";
+@import "../components/header/header";
+@import "../components/global/footer";
+@import "../components/buttons/buttons";
+
+.blogs-main__principal-blog-container {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+        "title title"
+        "imagen info";
+    padding: 2rem 5rem 4rem;
+}
+
+.principal-blog__title {
+    grid-area: title;
+}
+
+.blogs-main__principal-blog-image-container {
+    grid-area: imagen;
+    width: 90%;
+}
+
+.blogs-main__info-principal-blog-container {
+    grid-area: info;
+    align-self: center;
+}
+
+.info-principal-blog-container__info {
+    margin-block-end: 3.5rem;
+}
+
+.blogs-main__blog-post-title {
+    margin: 2rem 5rem 0;
+}
+
+.blogs-main__blogs-post-container {
+    grid-template-columns: 1fr 1fr 1fr;
+}
