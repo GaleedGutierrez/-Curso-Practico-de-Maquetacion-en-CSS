@@ -206,3 +206,16 @@ svg {
   -webkit-margin-after: 3.5rem;
           margin-block-end: 3.5rem;
 }
+
+.blogs-main__blogs-post-container {
+  padding: 0 5rem;
+  margin: 4rem 0;
+}
+
+.blogs-main__blog-post-title {
+  -webkit-padding-after: 2rem;
+          padding-block-end: 2rem;
+  -webkit-border-after: 0.1rem solid #ccd1d9;
+          border-block-end: 0.1rem solid #ccd1d9;
+  text-align: center;
+}
