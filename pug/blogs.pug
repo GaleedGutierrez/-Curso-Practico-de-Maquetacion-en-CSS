@@ -4,15 +4,15 @@ block head
     //- +style-head-responsive(".css", "")
     +titles("Blogs")
 block main
-    main.main
-        section.main__principal-blog
-            h3 Lorem ipsum
-            +img-responsive("1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm","1BZNddydZM10mtx1hrWui7GnsplknMd0b","1LZJfnSzw31hKIBgK81yg258udfkNjfzT","Photo dummy")
-            .main__content-principal-blog   
-                h2 Lorem ipsum
-                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptates ea quam ipsam totam mollitia officia ex, reiciendis perspiciatis fugiat eligendi dolorum et, quo odio accusamus deserunt quibusdam? Mollitia, minima.
+    main.blogs-main
+        section.blogs-main__principal-blog
+            h3.principal-blog__title Lorem ipsum
+            +img-responsive("blogs-main__principal-blog-image-container", "1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm","1BZNddydZM10mtx1hrWui7GnsplknMd0b","1LZJfnSzw31hKIBgK81yg258udfkNjfzT","Photo dummy")
+            .blogs-main__info-principal-blog-container   
+                h2.info-principal-blog-container__title Lorem ipsum
+                p.info-principal-blog-container__info Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptates ea quam ipsam totam mollitia officia ex, reiciendis perspiciatis fugiat eligendi dolorum et, quo odio accusamus deserunt quibusdam? Mollitia, minima.
                 +button("", "Leer más", "button--secondary")
-        section 
-            h3 Lorem ipsum
+        section.blogs-main__blogs-post-container
+            h3.blogs-main__blog-post-title Lorem ipsum
             each number in [1, 2, 3, 4, 5, 6]
                 +box-blog-post-summary("1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm","1BZNddydZM10mtx1hrWui7GnsplknMd0b","1LZJfnSzw31hKIBgK81yg258udfkNjfzT","Photo dummy", "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque voluptates ea quam ipsam totam mollitia officia ex, reiciendis perspiciatis fugiat eligendi dolorum et, quo odio accusamus deserunt quibusdam? Mollitia, minima.","")=number
