@@ -1,6 +1,8 @@
 @import "../components/global/global";
 @import "../components/header/header";
 @import "../components/global/footer";
+@import "../components/contact/contact";
+
 
 .blogpost__image-container {
     padding: 0 5rem;
@@ -33,6 +35,7 @@
 
 .blogpost__main-info {
     margin-block-end: 2rem;
+
     &:last-child {
         margin: 0;
     }

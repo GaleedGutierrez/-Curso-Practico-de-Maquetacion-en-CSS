@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="../../../assets/fonts/Code-Next-Extra-Bold/MyFontsWebfontsKit.css">
     <link rel="stylesheet" href="../css/flaticon-font/flaticon.css">
     <link rel="stylesheet" href="../css/blog/style.css"/>
+    <link rel="stylesheet" href="../css/blog/tablet.css" media="screen and (min-width:720px)"/>
+    <link rel="stylesheet" href="../css/blog/desktop.css" media="screen and (min-width:1024px)"/>
     <title>Blog</title>
   </head>
   <body class="body">
@@ -21,7 +23,7 @@
         <section class="header__logo-container">
           <div class="logo"><a class="logo-link" href="./blogs.html"></a>
             <figure class="logo-image-container" tabindex="0" aria-label="Logo icon">
-              <svg viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="logo-svg" viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M45.6819 31.9513C44.3091 30.6793 44.7441 28.4091 46.4845 27.7627L90.6791 11.3468C92.31 10.741 94.0527 11.9657 94.0527 13.7177L94.0527 71.0851C94.0527 73.2644 91.4766 74.3856 89.8765 72.9028L45.6819 31.9513Z" fill="#48CFAD"></path>
                 <rect y="0.09375" width="94" height="58" rx="12" fill="#48CFAD"></rect>
                 <rect width="32.0855" height="10.5229" rx="5.26144" transform="matrix(-0.707107 0.707107 0.707107 0.707107 75.959 20.9282)" fill="white"></rect>
@@ -58,26 +60,26 @@
         </div>
       </section>
       <section class="contact-main-container grid-container">
-        <div class="contact-main-left"> 
-          <figure class="product-img-container" tabindex="0">
+        <div class="contact-main__left contact-main"> 
+          <figure class="contact-main-image product-img-container" tabindex="0">
             <picture>
               <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/>
               <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/><img class="product-img" src="https://drive.google.com/uc?id=1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X"/>
             </picture>
           </figure>
-          <div class="contact-left"><a href=""> </a>
-            <p></p>
+          <div class="contact-left"><a class="contact-main__type" href="">Contacto</a>
+            <p class="contact-main__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
-        <div class="contact-main-right">
-          <figure class="product-img-container" tabindex="0">
+        <div class="contact-main__right contact-main"> 
+          <figure class="contact-main-image product-img-container" tabindex="0">
             <picture>
               <source media="(min-width: 1024px)" srcset="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/>
               <source media="(min-width: 720px)" srcset="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/><img class="product-img" src="https://drive.google.com/uc?id=132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU"/>
             </picture>
           </figure>
-          <div class="contact-right"><a href=""> </a>
-            <p></p>
+          <div class="contact-right"><a class="contact-main__type" href="">Escribe</a>
+            <p class="contact-main__info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </section>

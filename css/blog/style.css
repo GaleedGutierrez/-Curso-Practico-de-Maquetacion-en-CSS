@@ -36,7 +36,6 @@ body {
 img,
 svg {
     width: 100%;
-    height: 100%;
 }
 
 .grid-container {
@@ -62,7 +61,8 @@ svg {
     height: 100%;
 }
 
-.logo-image-container {
+.logo-image-container,
+.logo-svg {
     height: 100%;
 }
 
@@ -161,10 +161,41 @@ svg {
     place-items: center;
     width: 100%;
     height: 11rem;
+    -webkit-margin-before: 4rem;
+            margin-block-start: 4rem;
     -webkit-border-before: 3.5rem solid #48cfad;
             border-block-start: 3.5rem solid #48cfad;
     color: #ffffff;
     background-color: #23282d;
+}
+
+.contact-main-container {
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 2rem;
+    padding: 3rem 5rem;
+    background-color: #e6e9ed;
+}
+
+.contact-main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 2rem auto;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 2rem;
+}
+
+.contact-main__type {
+    display: inline-block;
+    -webkit-padding-after: 1rem;
+            padding-block-end: 1rem;
+    -webkit-margin-after: 1rem;
+            margin-block-end: 1rem;
+    border-bottom: 0.1rem solid #23282d;
+}
+
+.contact-main__info {
+    line-height: normal;
 }
 
 .blogpost__image-container {

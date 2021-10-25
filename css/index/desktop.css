@@ -14,7 +14,13 @@ p, a {
     height: 5rem;
 }
 
-.header__social-media-icons-containe {
+.header__social-media-icons {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+
+.header__social-media-icons-container {
     margin-right: 3.5rem;
 }
 
