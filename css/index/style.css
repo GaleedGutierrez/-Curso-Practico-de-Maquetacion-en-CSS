@@ -81,9 +81,9 @@ svg {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     height: 100%;
     background-color: #48cfad;
@@ -98,7 +98,6 @@ svg {
             justify-content: space-between;
     width: 30rem;
     height: 100%;
-    margin-right: 3.5rem;
 }
 
 .header__social-media-icon {

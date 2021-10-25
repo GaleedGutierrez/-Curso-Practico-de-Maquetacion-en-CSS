@@ -4,4 +4,16 @@ block head
     //- +style-head-responsive(".css", "")
     +titles("Blog")
 block main
-    main.main
+    main.blogpost
+        section.blogpost__image-container
+            +img-responsive("", "1yndMHgtFzlTBegoh9fkUVRVUurtD9oEm","1BZNddydZM10mtx1hrWui7GnsplknMd0b","1LZJfnSzw31hKIBgK81yg258udfkNjfzT","Dummy photo")
+        section.blogpost__main-container
+            .grid-container.blogpost__main
+                h3.blogpost__main-type Lorem ipsum
+                article.blogpost__main-content-container
+                    h1.blogpost__main-title 
+                    p.blogpost__main-info Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam facere ex reiciendis, iure maiores quisquam ut sint minima harum expedita ratione numquam eligendi, veniam officiis saepe? Ducimus nobis ex facere?
+                    p.blogpost__main-info Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur?
+                    p.blogpost__main-info Lorem ipsum dolor sit.
+        section.contact-main-container
+            +contact-section
