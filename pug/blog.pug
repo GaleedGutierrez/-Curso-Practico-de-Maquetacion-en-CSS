@@ -1,7 +1,8 @@
 extend ./components/global/_base.pug
 block head
     +style-head("blog/style.css")
-    //- +style-head-responsive(".css", "")
+    +style-head-responsive("blog/tablet.css", "720")
+    +style-head-responsive("blog/desktop.css", "1024")
     +titles("Blog")
 block main
     main.blogpost

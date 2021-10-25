@@ -3,7 +3,9 @@
 }
 
 .header__social-media-icons {
-    justify-content: end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
 }
 
 .header__social-media-icons-container {

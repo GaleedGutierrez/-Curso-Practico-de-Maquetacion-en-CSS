@@ -15,7 +15,7 @@ mixin logo-mi-blog
     .logo
         a(href="./blogs.html").logo-link
         figure.logo-image-container(tabindex="0" aria-label="Logo icon")
-            svg(viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg")
+            svg(class="logo-svg" viewBox="0 0 95 74" fill="none" xmlns="http://www.w3.org/2000/svg")
                 path(d="M45.6819 31.9513C44.3091 30.6793 44.7441 28.4091 46.4845 27.7627L90.6791 11.3468C92.31 10.741 94.0527 11.9657 94.0527 13.7177L94.0527 71.0851C94.0527 73.2644 91.4766 74.3856 89.8765 72.9028L45.6819 31.9513Z" fill="#48CFAD")
                 rect(y="0.09375" width="94" height="58" rx="12" fill="#48CFAD")
                 rect(width="32.0855" height="10.5229" rx="5.26144" transform="matrix(-0.707107 0.707107 0.707107 0.707107 75.959 20.9282)" fill="white")
@@ -43,14 +43,14 @@ mixin box-blog-post-summary(img1024, img720, img360, altImg, title, content, pag
         +button(""+page, "Leer más", "button--primary")
 
 mixin contact-section()
-    .contact-main-left 
-        +img-responsive("", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X")
+    .contact-main__left.contact-main 
+        +img-responsive("contact-main-image", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X")
         .contact-left
-            a(href="") 
-            p
-    .contact-main-right
-        +img-responsive("", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU")
+            a.contact-main__type(href="") Contacto
+            p.contact-main__info Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    .contact-main__right.contact-main 
+        +img-responsive("contact-main-image", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU")
         .contact-right
-            a(href="") 
-            p
+            a.contact-main__type(href="") Escribe
+            p.contact-main__info Lorem ipsum dolor sit amet consectetur adipisicing elit.
     

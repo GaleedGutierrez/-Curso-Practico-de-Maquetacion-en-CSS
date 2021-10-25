@@ -1,7 +1,4 @@
-@import "../components/global/global";
-@import "../components/header/header";
-@import "../components/global/footer";
-@import "../components/buttons/buttons";
+@import "../components/header/header-desktop";
 
 .blogs-main__principal-blog-container {
     grid-template-columns: 2fr 1fr;
