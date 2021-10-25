@@ -41,3 +41,14 @@
 .info-principal-blog-container__info {
     margin-block-end: 3.5rem;
 }
+
+.blogs-main__blogs-post-container {
+    padding: 0 5rem;
+    margin: 4rem 0;
+}
+
+.blogs-main__blog-post-title {
+    padding-block-end: 2rem;
+    border-block-end: 0.1rem solid $white-light;
+    text-align: center;
+}
