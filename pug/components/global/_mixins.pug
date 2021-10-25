@@ -35,8 +35,9 @@ mixin button(page, content, classInput)
     form(action="page") 
         input(type="submit", value=content, class="button "+classInput)
 
-mixin box-blog-post-summary(img1024, img720, img360, altImg, content, page)
+mixin box-blog-post-summary(img1024, img720, img360, altImg, title, content, page)
     article.post-container 
         +img-responsive("post-container__image", ""+img1024, ""+img720, ""+img360, ""+altImg)
+        p.post-container__title=title
         p.post-container__info=content
         +button(""+page, "Leer más", "button--primary")
