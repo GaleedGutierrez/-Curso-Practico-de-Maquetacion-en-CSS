@@ -2,6 +2,7 @@
     display: grid;
     grid-row-gap: 2rem;
     padding: 3rem 5rem;
+    margin-block-start: 4rem;
     background-color: $white-hard;
 }
 
@@ -18,7 +19,7 @@
     border-bottom: 0.1rem solid $black;
 }
 
-.contact-main__info{
+.contact-main__info {
     line-height: normal;
 }
 

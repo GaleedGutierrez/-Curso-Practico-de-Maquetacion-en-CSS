@@ -43,14 +43,21 @@ mixin box-blog-post-summary(img1024, img720, img360, altImg, title, content, pag
         +button(""+page, "Leer más", "button--primary")
 
 mixin contact-section()
-    .contact-main__left.contact-main 
-        +img-responsive("contact-main-image", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X")
+    .contact-main-left.contact-main 
+        +img-responsive("", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X", "1X1YZYGwFrr1PQnS-RZYzv6EJpuvN8v_X")
         .contact-left
             a.contact-main__type(href="") Contacto
-            p.contact-main__info Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    .contact-main__right.contact-main 
-        +img-responsive("contact-main-image", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU")
+            p.contact-main__info Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, soluta?
+    .contact-main-right.contact-main
+        +img-responsive("", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU", "132_cgRB6myJ6-7ME-qnG3zhlPLAzd4LU")
         .contact-right
             a.contact-main__type(href="") Escribe
-            p.contact-main__info Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            p.contact-main__info Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, soluta?
     
+
+mixin box-proyect-summary(img1024, img720, img360, altImg, title, content1, page)
+    article.post-container 
+        +img-responsive("profile-main__proyect-image", ""+img1024, ""+img720, ""+img360, ""+altImg)
+        h4.post-container__title=title
+        p.post-container__info=content1
+        +button(""+page, "Leer más", "button--primary")
