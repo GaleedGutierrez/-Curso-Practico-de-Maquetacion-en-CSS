@@ -2,3 +2,38 @@
 @import "../components/header/header";
 @import "../components/global/footer";
 
+.blogpost__image-container {
+    padding: 0 5rem;
+    margin-block-end: 2rem;
+}
+
+.blogpost__image {
+    width: 100%;
+}
+
+.blogpost__main-container {
+    padding: 0 5rem;
+    margin-block-end: 4rem;
+}
+
+.blogpost__main-content-container {
+    margin-block-start: 2rem;
+}
+
+
+.blogpost__main-type-blog {
+    border-bottom: 0.1rem solid $black;
+    padding-block-end: 2rem;
+}
+
+.blogpost__main-title {
+    margin-block-end: 2rem;
+    font-size: $extra-extra-large;
+}
+
+.blogpost__main-info {
+    margin-block-end: 2rem;
+    &:last-child {
+        margin: 0;
+    }
+}
