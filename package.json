@@ -1,0 +1,27 @@
+{
+  "name": "mywebpage",
+  "version": "1.0.0",
+  "description": "My webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaleedGutierrez/Curso-Practico-de-Maquetacion-en-CSS.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "SASS",
+    "NPM"
+  ],
+  "author": "Galeed Gutierrez <galeedeveloper@gmail.com> (http://galeedgutierrez.com/)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/GaleedGutierrez/Curso-Practico-de-Maquetacion-en-CSS/issues"
+  },
+  "homepage": "https://github.com/GaleedGutierrez/Curso-Practico-de-Maquetacion-en-CSS#readme"
+}
